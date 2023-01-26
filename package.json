@@ -9,12 +9,14 @@
     "react-scripts": "4.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-script start",
+    "build": "react-script build",
     "test": "jest"
   },
   "eslintConfig": {
     "extends": [
-      "react-app"
+      "react-app",
+      "react-app/jest"
     ]
   },
   "browserslist": {
